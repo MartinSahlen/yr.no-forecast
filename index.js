@@ -183,6 +183,7 @@ function buildDetail(detail, basic) {
 
   var obj = {
     icon: basic['location']['symbol']['id'],
+    iconNumber: basic['location']['symbol']['number'],
     to: basic['to'],
     from: basic['from'],
     rain: (basic['location']['precipitation']['value'] + ' ' + basic['location']['precipitation']['unit'])
